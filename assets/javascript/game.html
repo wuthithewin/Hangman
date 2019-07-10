@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Hangman-game</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+
+
+</head>
+<body>
+
+        <div class="container">
+            <header>
+                <h1>SuperCarsGT-Hangman</h1>
+            </header>
+            <div class="underscores">_ _ _ _</div> 
+            <div class="youCorrect">you correct</div>
+            <div class="youWrong">you wrong</div>
+        </div>
+
+<p>hello</p>
+<div></div>
+
+     <script src="../../javascript/game.js"></script>
+
+
+
+
+    
+</body>
+</html> 
+
+
+
+
+
+
+
+<!-- 
+
+<p id="gt"</p>
+    <p></p>
+    <div></div>
+    <script type="text/javascript">
+
+            var counter = 0;
+            var correctWords = ["Ferrari", "McLaren", "Lamborghini"];
+            document.getElementById("gt").innerHTML = correctWords;
+            console.log(correctWords);
+
+            var pTag = document.querySelector('p');
+            pTag.innerText = counter;
+            
+            var letters = [];
+
+            function updateCorrectWords(){
+                    counter++;
+                    pTag.innerText = counter;
+
+                    letters.push(event.key)
+                    
+                    document.querySelector('div').innerText = (letters); 
+
+            }
+            document.onkeypress = updateCorrectWords;
+
+</script>
+</body>
+</html> 
