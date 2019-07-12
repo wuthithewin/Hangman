@@ -1,36 +1,36 @@
-   
+var cars = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'];
+var randCar = Math.floor(Math.random() * cars.length);
+var choosenCar = cars[randCar];
+console.log(choosenCar);
 
+var i = 0
+document.onkeypress = i++ 
 
+document.onkeypress = hideConLog
 
-   var cars = ['Mclaren', 'Ferrari', 'AstonMartin', 'Lamborghini', 'Koenigsegg', 'Pagani', 'Maserati', 'Porsche'];
-    let randCar = Math.floor(Math.random() * cars.length);
-    let choosenCar = cars[randCar];
-    console.log(choosenCar);
+function hideConLog() {
 
-    var counter = 0;
-    
-  
-    
-    var letters = [];
-    function updateCorrectWords(){        
-        for(let i=0; i<=choosenCar.length; i++){
-            letters.push('_');
+    console.log("hide");
+    console.log(event.key);
 
-        }
-        return letters;
-       
+    if (choosenCar === event.key) {
+        console.log("You Are Correct");
+    } else {
+        console.log("You are Wrong");
     }
+}
 
-// 1.Create an array of words
-// 2.choose randomly
+// var i
+// i=0
 
-        // 3.create underscore from the word
+// i=i+1 
+// 1=0+1
 
-// 4.get users to guess
+// i=i+1 
+// 2=1+1
 
-// 5.check if correct
 
-// 6.if correct push to correct array
 
-// 7.if wrong push to wrong array
-    
+
+
+
